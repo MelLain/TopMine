@@ -4,13 +4,6 @@
 
 Исходная статья: [El-Kishky, Ahmed, et al. "Scalable topical phrase mining from text corpora." Proceedings of the VLDB Endowment 8.3 (2014): 305-316.APA](http://hanj.cs.illinois.edu/pdf/vldb15_ael-kishky.pdf)
 
-Ссылка на [статью с описанием алгоритма и результаты экспериментов](https://wiki.yandex.ru/TopMine/).
-
-**Ответственные:**
-
-- Мурат Апишев (@mel-lain) - архитектура реализации и программный код;
-- Роман Миляев (@rmil) - алгоритмическая теория.
-
 ## Особенности реализации
 
 - Язык - ```C++11```
@@ -24,7 +17,7 @@
 
 ## Сборка
 
-Стандартная для Linux/Unix с ```CMake```:
+Стандартная для Linux/Unix с ```CMake``` (для исключения сборки тестов можно закомментировать всё с 54-й строки):
 
 ```
 mkdir build
